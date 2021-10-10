@@ -1,0 +1,51 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+  background: #F2441D;
+}
+header
+{
+  position: relative;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul 
+{
+  position: relative;
+  display: flex;
+}
+header ul li
+{
+  list-style: none;
+}
+header ul li a
+{
+  display: inline-block;
+  color: white;
+  font-weight: 300;
+  margin-left: 40px;
+  text-decoration: orangered;
+}
+h2
+{
+  font-weight: 1000;
+  color: white;
+  text-align: center;
+}
+p 
+{
+  color: white;
+  text-align: center;
+  font-weight: 800;
+}
